@@ -1,0 +1,96 @@
+
+.body {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    margin: -0.5rem;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: black;
+}
+
+.first-page {
+    height: 40.5rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-substitute-1 {
+    background-color: blue;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 4rem;
+}
+
+.first-header {
+    text-align: center;
+    font-size: 400%;
+}
+
+.second-page {
+    height: 40.5rem;
+    border: 1px solid red;   
+    display: flex;
+}
+
+.image-substitute-2 {
+    background-color: blueviolet;
+    height: 70%;
+    width: 41%;
+    margin-top: -4%;
+    margin-left: 9%;
+}
+
+.text-container-1 {
+    border: 0.2rem solid red;
+    margin-top: 1%;
+    height: 12rem;
+    width: 22rem;
+    text-align: justify;
+}
+
+.third-page {
+    height: 40.5rem;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+
+.image-substitute-3 {
+    background-color: blueviolet;
+    height: 70%;
+    width: 41%;
+    margin-top: -27%;
+}
+
+.text-container-2 {
+    border: 0.2rem solid red;
+    height: 12rem;
+    width: 22rem;
+    margin-left: 25%;
+    margin-top: -37%;
+    text-align: right;
+}
+
+.fourth-page {
+    height: 40.5rem;
+    border: 1px solid blueviolet;
+}
+
+.image-substitute-4 {
+    background-color: blueviolet;
+    height: 35%;
+    width: 20%;
+}
+
+.fifth-page {
+    height: 40.5rem;
+    border: 1px solid green;
+}
+
+.sixth-page {
+    height: 40.5rem;
+    border: 1px solid greenyellow;
+}
